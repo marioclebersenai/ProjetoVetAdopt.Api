@@ -1,0 +1,6 @@
+@ProjetoVetAdopt.Api_HostAddress = http://localhost:5079
+
+GET {{ProjetoVetAdopt.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
