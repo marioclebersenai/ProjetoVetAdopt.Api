@@ -30,6 +30,8 @@ namespace ProjetoVetAdopt.Api.Controllers
                 Status = "Aguardando Avaliação Veterinária"
             };
 
+            var data = DateTime.Now;
+
             _context.Animais.Add(novoAnimal);
             await _context.SaveChangesAsync();
 
